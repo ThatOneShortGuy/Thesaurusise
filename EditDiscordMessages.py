@@ -1,7 +1,7 @@
 import discord
 from Thesaurusise import synonymise_sentance
 
-token = "NDUwMzM4MTIxMDA4MTUyNTg3.YlJ-BA.ysbTZZJOih_dnNzudWNHR6__XeE"
+token = "Insert Your Discord Token Here!!!"
 
 client = discord.Client()
 
