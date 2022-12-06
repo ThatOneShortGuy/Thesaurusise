@@ -6,7 +6,7 @@ import string
 
 SITE = 'http://www.thesaurus.com/browse/'
 EXCEPTION_WORDS = ['i', 'me', 'a', 'an', 'the', 'and', 'is', 'or', 'but', 'if', 'then', 'else', 'when', 'at', 'from', 'by', 'on', 'off', 'for', 'in', 'out', 'over', 'to', 'into', 'with', 'you']
-PROBABILITY_OF_SYNONYMISATION = 0.5
+PROBABILITY_OF_SYNONYMISATION = 0.2
 
 
 def get_synonyms(word, site=None):
