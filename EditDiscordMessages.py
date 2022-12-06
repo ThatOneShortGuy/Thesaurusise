@@ -6,7 +6,7 @@ if os.path.exists('token.txt'):
     with open('token.txt') as f:
         token = f.read().strip()
 else:
-    token = input('Enter token: ')
+    token = input('Enter user Discord token: ')
     with open('token.txt', 'w') as f:
         f.write(token)
 
